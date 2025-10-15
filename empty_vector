@@ -1,0 +1,24 @@
+#include <iostream>
+#include <vector>
+using namespace std; 
+
+int main()
+{
+int t=1; 
+cin >>t; 
+while (t--){
+    vector<int>v(5);
+    for (int i=0; i<5; i++)
+    cin >>v[i]; 
+    bool flag =true;
+     for (int i=0; i<5; i++){
+    if (v[i]==0){
+    flag=false; 
+    break; }}
+    if (!flag)
+    cout <<"it is empty \n"; 
+    else
+    cout <<"it is not empty \n"; 
+}
+    return 0;
+}
