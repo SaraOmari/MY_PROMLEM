@@ -20,6 +20,6 @@ while (t--){
     cout <<"it is not empty \n"; 
 }
 
-    
+
 return 0;
 }
