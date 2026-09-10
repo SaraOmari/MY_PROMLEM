@@ -18,7 +18,6 @@ while (t--){
     cout <<"it is empty \n"; 
     else
     cout <<"it is not empty \n"; 
-
 }
 return 0;
 }
